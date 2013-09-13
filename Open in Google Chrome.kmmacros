@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>IsActive</key>
+		<true/>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>Argument</key>
+						<string>%SafariURL%</string>
+						<key>Command</key>
+						<string>SetDocumentURL</string>
+						<key>IsActive</key>
+						<true/>
+						<key>IsDisclosed</key>
+						<true/>
+						<key>MacroActionType</key>
+						<string>SafariControl</string>
+						<key>WebBrowser</key>
+						<string>Google Chrome</string>
+					</dict>
+				</array>
+				<key>IsActive</key>
+				<true/>
+				<key>ModificationDate</key>
+				<real>393656864.59342802</real>
+				<key>Name</key>
+				<string>Open in Google Chrome</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>47</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>768</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>B2D88F1B-D88B-42A3-9B96-DD9B46B95FD9</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Safari Macros</string>
+		<key>Targeting</key>
+		<dict>
+			<key>Targeting</key>
+			<string>Included</string>
+			<key>TargetingApps</key>
+			<array>
+				<dict>
+					<key>BundleIdentifier</key>
+					<string>com.apple.Safari</string>
+					<key>Name</key>
+					<string>Safari</string>
+					<key>NewFile</key>
+					<string>/Applications/Safari.app</string>
+				</dict>
+			</array>
+		</dict>
+		<key>UID</key>
+		<string>5FD489AD-8E68-48C1-B1EA-05190238D3E3</string>
+	</dict>
+</array>
+</plist>
